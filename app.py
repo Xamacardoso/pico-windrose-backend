@@ -10,7 +10,7 @@ socket = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 @app.route("/update", methods=["POST"])
 def update_data():
     data = request.json
-    data["timestamp"] = time.strftime("%H:%M:%S", time.localtime())
+    data["timestamp"] = time.strftime("%H:%M:%S", time.localtime()) + " GMT (Londres)"
     print(f"[RECEBIDO]: {data}")
 
     # Envio via websocket
