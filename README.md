@@ -70,7 +70,7 @@ O servidor expõe:
 
 ### Visualização:
 
-Abra a página do frontend no seu navegador [LINK FALTANDO]
+Abra a página do frontend no seu navegador - [LINK](https://xamacardoso.github.io/pico-windrose-frontend)
 
 ---
 
